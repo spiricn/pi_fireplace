@@ -1,1 +1,5 @@
-# pi_fireplace
+
+```
+sudo ./install.sh <USERNAME> <GROUP_NAME>
+```
+

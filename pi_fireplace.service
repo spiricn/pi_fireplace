@@ -1,0 +1,8 @@
+[Unit]
+Description=Fireplace video looper service
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/pi_fireplace/start.sh
