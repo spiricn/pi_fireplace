@@ -9,6 +9,7 @@ main() {
         --fullscreen \
         --video-on-top \
         --repeat \
+        --no-video-title \
         $scriptDir/fireplace.mp4
 }
 
