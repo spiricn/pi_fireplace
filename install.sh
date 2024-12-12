@@ -12,8 +12,8 @@ main() {
 
     cp -v pi_fireplace.service /lib/systemd/system/
 
-    echo "User=$user" >>/lib/systemd/system/pi_fireplace.service
-    echo "Group=$group" >>/lib/systemd/system/pi_fireplace.service
+    printf "\nUser=$user\n" >> /lib/systemd/system/pi_fireplace.service
+    printf "\nGroup=$group\n" >> /lib/systemd/system/pi_fireplace.service
 
     systemctl daemon-reload
     systemctl enable pi_fireplace.service
