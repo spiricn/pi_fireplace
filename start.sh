@@ -10,6 +10,7 @@ main() {
         --video-on-top \
         --repeat \
         --no-video-title \
+        --no-audio \
         $scriptDir/fireplace.mp4
 }
 
