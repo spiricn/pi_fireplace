@@ -13,7 +13,7 @@ main() {
             --no-video-title \
             --no-audio \
             "$scriptDir/fireplace.mp4"
-        
+
         if [ $? -eq 0 ]; then
             echo "Script executed successfully."
             break
@@ -21,6 +21,7 @@ main() {
             echo "Script failed. Retrying in 5 seconds..."
             sleep 5
         fi
+    done
 }
 
 main "$@"
