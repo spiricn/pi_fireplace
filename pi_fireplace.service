@@ -1,5 +1,7 @@
 [Unit]
 Description=Fireplace video looper service
+After=graphical.target
+Wants=graphical.target
 
 [Install]
 WantedBy=multi-user.target
